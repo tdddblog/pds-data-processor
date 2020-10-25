@@ -43,7 +43,7 @@ public class LastVersionFilter
         
         rd.close();
         
-        writeLasetUrl();
+        writeLastUrl();
     }
 
 
@@ -72,7 +72,7 @@ public class LastVersionFilter
         }
         else
         {
-            writeLasetUrl();
+            writeLastUrl();
             lastUrl = url;
             lastName = name;
             lastVersion = version;
@@ -80,7 +80,7 @@ public class LastVersionFilter
     }
 
     
-    private void writeLasetUrl()
+    private void writeLastUrl()
     {
         if(lastUrl == null) return;
         
