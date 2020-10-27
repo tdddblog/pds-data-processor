@@ -26,7 +26,7 @@ public class LastVersionFilter
     
     public void process(File file) throws Exception
     {
-        BufferedReader rd = new BufferedReader(new FileReader(file));        
+        BufferedReader rd = new BufferedReader(new FileReader(file));
 
         String line = null;
         String prevLine = null;
